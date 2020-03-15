@@ -178,7 +178,7 @@
             // apply_bt
             // 
             this.apply_bt.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.apply_bt.Location = new System.Drawing.Point(736, 481);
+            this.apply_bt.Location = new System.Drawing.Point(737, 481);
             this.apply_bt.Name = "apply_bt";
             this.apply_bt.Size = new System.Drawing.Size(147, 41);
             this.apply_bt.TabIndex = 13;
