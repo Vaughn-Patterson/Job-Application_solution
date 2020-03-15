@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="8bf57b7771b2420f95622a139f7fe850" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="Jobapp_dbModel.Employer_details" Width="1.5" PointX="10" PointY="5.125" />
+        <EntityTypeShape EntityType="Jobapp_dbModel.Job_Applications_details" Width="1.5" PointX="7.75" PointY="5.375" />
+        <EntityTypeShape EntityType="Jobapp_dbModel.Jobseeker_details" Width="1.5" PointX="2.125" PointY="5.625" />
+        <EntityTypeShape EntityType="Jobapp_dbModel.Resume_details" Width="1.5" PointX="4.875" PointY="4.75" />
+        <EntityTypeShape EntityType="Jobapp_dbModel.Vacancy_details" Width="1.5" PointX="5.125" PointY="1.125" />
+        <AssociationConnector Association="Jobapp_dbModel.FK_Vacancy_details_Employer_details" />
+        <AssociationConnector Association="Jobapp_dbModel.FK_Job_Applications_Job_Applications" />
+        <AssociationConnector Association="Jobapp_dbModel.FK_Job_Applications_Jobseeker_details" />
+        <AssociationConnector Association="Jobapp_dbModel.FK_Job_Applications_Resume_details" />
+        <AssociationConnector Association="Jobapp_dbModel.FK_Resume_details_Jobseeker_details" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
